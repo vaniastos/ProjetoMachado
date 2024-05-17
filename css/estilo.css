@@ -95,7 +95,14 @@
         width: 30%;
         border: 10px double black;/*border: espessura estilo cor*/
     }
+    #Obras{
+        display: flex;
+    }
 
+    #Machado img{
+        height: 80% vh;
+        border: 0px;
+    }
     iframe{
         width: 90%;
         border: 10px double black;
@@ -114,7 +121,7 @@
     }
     
     aside{
-        background-color: var(--cor2);
+        background-color: blanchedalmond;
         padding: 20px 0;
         border-radius: 5px;
         margin-top: 10px;
@@ -135,7 +142,7 @@
     }
 
     aside h3{
-        background-color: var(--cor2);
+        background-color: blanchedalmond;
         padding: 10px;
         margin: -20px -0.5px 0px -0.5px;
     }
